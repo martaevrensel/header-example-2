@@ -45,3 +45,33 @@
   font-size: 1.25rem;
   line-height: 1.5rem;
 }
+
+/* ==== ARTICLE STYLES ==== */
+
+section {
+  padding: 0 .625rem;
+}
+
+@media screen and (min-width: 1224px) {
+
+  section {
+    width: 50%;
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+
+}
+
+section h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  line-height: 1.25;
+  margin: 2rem 0;
+}
+
+section p {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+}

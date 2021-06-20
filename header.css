@@ -1,0 +1,16 @@
+.cover {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/page-header-bg.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: hsla(0,0%,100%,.7);
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  display: table;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 .625rem;
+}
